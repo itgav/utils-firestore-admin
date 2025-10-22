@@ -1,4 +1,6 @@
-// migrate.js
+// firestore-rename-field.js
+// Script to rename a field in all documents of a Firestore collection
+// by copying the value to a new field and deleting the old field.
 
 // 1. Import the Firebase Admin SDK
 const admin = require('firebase-admin');
